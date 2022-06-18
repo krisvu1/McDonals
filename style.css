@@ -463,63 +463,187 @@ html{
 }
 
 
-/* -----lịch sử ------ */
+   /*Lịch sử*/
 
-.anhlichsu img{
-    width: 1350px;
-    height: 513px;
-    position: absolute;
-
+    .anhlichsu img{
+        width: 100%;
+        height: auto;
+        position: absolute;
     
-}
-
-.anhlichsu .text_small{
+        
+    }
     
-    color: #fff;
-    font-size: 30px;
-    text-align:left;    
-    bottom: -280px;
-    padding-left: 120px;
-
-
-}
-.anhlichsu .text_big{
-   
-    color: #fff;
-    font-size: 60px;
-    font-weight: bold;
-    text-align: left;
-    bottom: -270px;
-    padding-left: 120px;
-
-}
-.history_mc{
-    margin-top: 455px;
-}
-.history_mc .title_text{
-    color:
-#bd0017;
-font-family: OpenSans-Light;
-font-size:36px;
-line-height:48.24px;
-margin:30px 0px;
-text-shadow: none;
-}
-.history_mc .text_history{
-    color: #000;
-    text-shadow: none;
-    text-align: left;
-    line-height: 30px;
-}
-.text-bottom-img{
-    color: red;
-    text-shadow: none;
-    text-align: left;
-    line-height: 28px;
-    margin-top: 20px;
-
-}
-
+    .anhlichsu .text_small{
+        
+        color: #fff;
+        font-size: 30px;
+        text-align:left;    
+        bottom: -280px;
+        padding-left: 120px;
+        text-shadow: none;
+    
+    }
+    .anhlichsu .text_big{
+       
+        color: #fff;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        bottom: -270px;
+        padding-left: 120px;
+        text-shadow: none;
+    
+    }
+    .history_mc{
+        margin-top: 455px;
+    }
+    .history_mc .title_text{
+        color:#bd0017;
+        text-align: left;
+        font-size:36px;
+        line-height:48.24px;
+        margin:30px 0px;
+        text-shadow: none;
+    }
+    .history_mc .text_history{
+        color: #000;
+        text-shadow: none;
+        text-align: left;
+        line-height: 30px;
+    }
+    .text-bottom-img{
+        color: red;
+        text-shadow: none;
+        text-align: left;
+        line-height: 28px;
+        margin-top: 20px;
+    
+    }
+    
+    .anhlichsu1 img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        margin-top: 50px;
+    }
+    
+    .history_mc1{
+        margin-top: 350px;
+    }
+    .history_mc1 .title_text{
+        color:#bd0017;
+        text-align: left;
+        font-size:36px;
+        line-height:48.24px;
+        margin:30px 0px;
+        text-shadow: none;
+    }
+    .history_mc1 .text_history{
+        color: #000;
+        text-shadow: none;
+        text-align: left;
+        line-height: 30px;
+    }
+    
+    .anhlichsu4 img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    
+        
+    }
+    .anhlichsu4 .text_big{
+        
+        color: #fff;
+        font-size: 35px;
+        text-align:left;    
+        top: 50px;
+        padding-left: 50px;
+        padding-right: 950px;
+        text-shadow: none;
+    }
+    .anhlichsu4 .text_small{
+        
+        color: #fff;
+        font-size: 18px;
+        text-align:left;    
+        top: 50px;
+        padding-left: 50px;
+        padding-right: 600px;
+        text-shadow: none;
+    }
+    .anhlichsu4 button{
+        margin-bottom: 5px;
+        padding: 9.5px 30px;
+        background-color: #BD0017;
+        border-radius: 0px 15px 15px 0px;
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    
+    }
+    
+    .history_mc2{
+        margin-top: 100px;
+        text-align:left;
+    }
+    .history_mc2 .title_text{
+        color:#bd0017;
+        font-size:36px;
+        line-height:48.24px;
+        margin:30px 0px;
+        text-shadow: none;
+        text-align:left;
+        padding-right: 400px;
+    
+    }
+    .history_mc2 .text_history{
+        color: #000;
+        text-shadow: none;
+        text-align: left;
+        line-height: 30px;
+    }
+    
+    .anhlichsu5 img{
+        width: 100%;
+        height: auto;
+        position: absolute;
+    
+        
+    }
+    .anhlichsu5 .text_big{
+        
+        color: #bd0017;
+        font-size: 35px;
+        text-align:left;    
+        top: 50px;
+        padding-left: 600px;
+        padding-right: 50px;
+        text-shadow: none;
+    }
+    .anhlichsu5 .text_small{
+        
+        color: #000;
+        font-size: 18px;
+        text-align:left;    
+        top: 50px;
+        padding-left: 600px;
+        padding-right: 50px;
+        text-shadow: none;
+    }
+    .endofpage1 ul {
+        list-style: none; 
+    }
+    
+    .endofpage1 a{
+        text-decoration: none;
+        color: gray;
+        
+        
+    }
+    .endofpage1{
+        transform: translateY(-61%);
+    }
 
 
 /* -----reponsive---- */
