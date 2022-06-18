@@ -645,6 +645,47 @@ html{
         transform: translateY(-61%);
     }
 
+        /*xuat xu*/
+        .anhxuatxu img{
+            width: 100%;
+            height: auto;
+            position: absolute;
+        
+            
+        }
+        
+        .anhxuatxu .text_small{
+            
+            color: #fff;
+            font-size: 30px;
+            text-align:left;    
+            bottom: -250px;
+            padding-left: 120px;
+            text-shadow: none;
+        
+        }
+        .anhxuatxu .text_big{
+           
+            color: #fff;
+            font-size: 60px;
+            font-weight: bold;
+            text-align: left;
+            bottom: -240px;
+            padding-left: 120px;
+            text-shadow: none;
+        
+        }
+        
+        .xuatxu1{
+            margin-top: 300px;
+        }
+        .xuatxu1 .text_gioithieu{
+            color: #000;
+            text-shadow: none;
+            padding-left: 80px;
+            padding-right: 80px;
+            line-height: 30px;
+        }
 
 /* -----reponsive---- */
  
