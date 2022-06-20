@@ -1,0 +1,89 @@
+html{
+    height: 20px
+}
+
+.container-fuild{
+    background-color: rgba(0,0,0,0.87);
+    text-align: center;
+    display: block;
+}
+.layout-timhieu
+{
+    background-color: rgba(27, 24, 24, 0.5);
+    padding: 26px 2px 96px 70px;
+    position:absolute;
+    z-index: 2;
+    display: none;
+}
+.layout-timhieu .lichsu{
+    padding-left: 50px;
+}
+.layout-timhieu p{
+    text-align: left;
+    padding-top: 10px;
+}
+.layout-menu{
+    background-color: rgba(0, 0, 0, 0.733);
+    color:black;
+  
+   display: none;
+   z-index: 6;
+
+    
+    
+}
+.menu-diemtam p{
+    padding-right: 20px;
+}
+.menu-mccafe p{
+    padding-right: 40px;
+}
+.layout-menu p{
+    font-size: 26px;
+    text-align: center;
+    
+  
+   
+}
+
+.layout-menu li{
+    list-style: none;
+    text-align: justify;
+    padding-left: 120px;
+}
+.layout-menu li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+  
+}
+
+.our-mission{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.our-mission .content img{
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+}
+
+.our-mission .text{
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.our-mission .content {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}

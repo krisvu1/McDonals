@@ -1,0 +1,94 @@
+.tbox-slider{
+	height: auto;
+	position: relative;
+	margin: 0px 0 0 0;
+}
+
+.timg-box-slider-1.history{
+	margin: -21px 0 0 0;
+	float: left;
+}
+
+/*----- Artical -------*/
+.tarticle{
+	margin: 50px 0 0 0;
+}
+.tarticle b {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	color: #bd0017;
+}
+.tarticle i {
+	color: #bd0017;
+}
+.tarticle.tarticle-block{
+	margin: 0;
+	width: 500px;
+	;
+}
+.tarticle .ttitle-article{
+	font-size: 36px;
+	color: #bd0017;
+	font-family: 'OpenSans-Light';
+	line-height: 1.34;
+	width: 100%;
+	float: left;
+	margin: 30px 0 30px 0;
+}
+.tarticle.tarticle-block.history .ttitle-article, .tarticle.tarticle-block.history .tcontent-article, .tarticle.tarticle-block.introduce .ttitle-article, .tarticle.tarticle-block.introduce .tcontent-article, .tarticle.tarticle-block.origin .ttitle-article, .tarticle.tarticle-block.origin .tcontent-article{
+	color: #ffffff;
+}
+.tarticle.tarticle-block.origin.black .ttitle-article, .tarticle.tarticle-block.origin.black .tcontent-article{
+	color: #444444;
+}
+.tarticle .ttitle-article.ttitle-content{
+	margin: 30px 0;
+}
+.tarticle .ttitle-article .tbold, .tarticle .tcontent-article .tbold{
+	font-family: 'OpenSans-Bold';
+}
+.tarticle .tcontent-article{
+	margin-bottom: 30px;
+	font-size: 18px;
+	color: #444444;
+	font-family: 'OpenSans-Light';
+	line-height: 1.5;
+	text-align: justify;
+}
+.tarticle .tcontent-article.ttext-center{
+	text-align: center;
+}
+.tarticle .tcontent-article .timportant{
+	color: #bd0017;
+}
+.tarticle .tcaption-article{
+	font-size: 18px;
+	color: #bd0017;
+	font-family: 'OpenSansLight-Italic';
+	line-height: 1.6;
+	text-align: center;
+	margin: 30px 0 0 0;
+}
+.tarticle .tcaption-article .tboldItalic{
+	font-family: 'OpenSans-BoldItalic';
+}
+.tarticle .tbutton-article{
+	font-size: 16px;
+	color: #ffffff;
+	font-family: 'OpenSans-Light';
+	line-height: 1.6;
+	text-align: center;
+	margin: 40px 0 0 0;
+	padding: 7px 57px 8px 57px;
+	display: inline-block;
+	background-color: #bd0017;
+	border-radius: 999px;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	-ms-border-radius: 999px;
+	-o-border-radius: 999px;
+	text-decoration: none;
+}
+.tbox-slider{
+    position: inherit !important;
+}
