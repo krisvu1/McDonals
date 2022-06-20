@@ -156,20 +156,11 @@ html{
     position: absolute;
     border-radius: 20px;
 }
-.mc-cafe{
-    position: relative;
-    font-size: 48px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    transform: translateY(500%);
-    padding-left: 66px;
-}
-
-.imghistory img{
-    position: absolute;   
-    border-radius: 20px;
+.imghambuger{
+    transform: translateY(400%);
 
 }
+
 .history{
     position: relative;
     transform: translateY(270%);
@@ -179,15 +170,7 @@ html{
    
 
 }
-.imgtuyendung{
-    padding-left: 74.5px !important;
-}
-.imgtuyendung img{
-    position:  absolute;
-    border-radius: 20px;
 
-    
-}
 .tuyendung{
     position: relative;
     transform: translateY(620%);
@@ -200,10 +183,7 @@ html{
     transform: translateY(400%);
 
 }
-.imghambuger img{
-    position: absolute;
-    border-radius: 20px;
-}
+
 .hambuger{
     position: relative;
     transform: translateY(300%);
@@ -216,10 +196,7 @@ html{
     margin-top: 32%;
     display: block;
 }
-.headeroder img{
-    position: absolute;
-    width: 1350px;
-}
+
 
 .headeroder h2,p{
     position: relative;
@@ -243,7 +220,41 @@ html{
 }
 
     
+.pcimg img{
+    padding-left: 146px;
+}
+.imghistory img{
+    position: absolute;   
+    border-radius: 20px;
 
+}
+.mc-cafe{
+    position: relative;
+    font-size: 48px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(500%);
+    padding-left: 66px;
+}
+
+.imgtuyendung{
+    padding-left: 74.5px !important;
+}
+
+.imgtuyendung img{
+    position:  absolute;
+    border-radius: 20px;
+
+    
+}
+.imghambuger img{
+    position: absolute;
+    border-radius: 20px;
+}
+.headeroder img{
+    position: absolute;
+    width: 1350px;
+}
 .contact p{
     margin-top:180px;
     font-family: 'Roboto', sans-serif;
@@ -526,15 +537,261 @@ text-shadow: none;
  
 
 /* mobile */
-.grid{
-    width: 100%;
-    display: block;
-    padding: 0;
-}
-/* tablet */
-@media  (max-width:740px){
-   .wide{
+@media only screen and (max-width: 739px) {
+    .mobile{
+        width: 375px;
+        height: 70px;
+    }
+    .mobileimg{
+        padding: 0px;
+    }
+    .mobileimg img{
+        height: 64px;
+        margin-right: 260px;
+      
+    }
+    .colmobile{
+        padding: 0px !important;
+    }
+    .imgdownmobile {
+        margin: 0px ;
+    }
+    .imgdownmobile img{
+        width: 375px;
+        height: 189px;
+       border-radius: 0px;
+        position: absolute;
+
        
-   }
+       
+      
+
+
+    }
+    .imgdownmobile .textmobile {
+        font-size: 10px;
+       margin-right: 169px;
+       margin-bottom: 20px;
+
+       
+    }
+    .imgdownmobile h2 {
+        font-size: 10px;
+       margin-right: 169px;
+       
+    }
+    .imgdownmobile .downapp{
+        position: relative;
+    padding-top: 40px;
+    margin-left: 48px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    }
+    .imgdownmobile button{
+        padding: 2px 1px;
+        background-color: #BD0017;
+        border-radius: 20px;
+        color: #fff;
+        line-height: 40px;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ndimgmobile{
+        margin: 0px 0px;
+    }
+    .imgcafemobile img{
+        width: 375px;
+        height: 162px;
+        border-radius: 0px;
+        margin: 46px -12px;
+       
+    }
+ 
+    .imghistorymobile img{
+        width: 375px;
+        height: 250px;
+        border-radius: 0px;
+        margin: 466px -231px
+     
+    }
+    .imghistorymobile img{
+        
+        border-radius: 0px;
+    }
+    .imgtuyendungmobile img{
+        width: 391px;
+        height: 258px;
+        margin-left: -308px;
+        margin-top: 209px;
+        border-radius: 0px;
+    }   
+    .rowmobile{
+        height: 0px;
+    }
+    .col-6mbl{
+        width: 0px;
+        height: 0px;
+    }
+    .col-6mobile{
+        width: 0px;
+        height: 0px;
+    }
+    .headerordermobile img{
+        margin-top: 500px;
+    }
+    .imghambugermobile{
+        width: 0px;
+        height: 0px;
+        
+    }
+    .imghambugermobile img{   
+        margin-top: 643px;
+        margin-left: -231px;
+        width: 375px;
+        height: 127px;
+    }
+    .headerordermobile img{
+        width: 375px;
+        height: 134px;
+        margin-top: 626px;
+    }
+    .headerordermobile h2{
+        margin-top: -70px;
+        font-size: 16px;
     
+    }
+    .headerordermobile p{
+        margin-top: -80px;
+        font-size: 16px;
+    
+    }
+    .headerordermobile button{
+        margin-top: 13px;
+        margin-left: -478px;
+    
+    }
+    .hambugermobile{
+        color: white;
+        transform: translate(-188px, 662px);
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .tuyendungmobile{
+        transform: translate(-283px, 394px);
+    color: white;
+    padding-left: 28px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    }
+    .contactmobile p{
+        margin-top: 743px;
+        font-family: 'Roboto', sans-serif;
+        color: #000000b0;
+        text-shadow: none;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .contact1mobile input{
+        margin-left: 2px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+    }
+    .contact1mobile p{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000b0;
+    text-shadow: none;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 0px;
+    }
+    .row1mobile .parent{
+        margin-top: 900px;
+    }
+    /* phần ăn  */
+    .menuEVM .rowmenuEVMmobile{
+        margin:31px;
+    }
+    .btn1mobile{
+        display: none;
+    }
+    .btn2mobile{
+        display: none;
+    }
+    .imgmobile img{
+        margin-left: -177px;
+    width: 50px;
+    }
+    .btnmobile  button
+    {
+        margin-left: 129px;
+        background: #fff;
+    }
+  
+    }
+   
+
+    
+
+
+
+
+/* tablet */
+
+@media screen and (min-width:740px) and (max-width:1024px) {
+    
+}
+
+
+/* Pc */
+
+
+@media screen and (min-width:1024px) {
+
+.headeroder button{
+    transform: translateX(306%);
+    border-radius: 20px;
+    background-color: white;
+    color: red;
+    padding: 8px 32px;
+    border: none;
+}
+
+   
+.pcimg img{
+    padding-left: 146px;
+}
+.imghistory img{
+    position: absolute;   
+    border-radius: 20px;
+
+}
+.mc-cafe{
+    position: relative;
+    font-size: 48px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transform: translateY(500%);
+    padding-left: 66px;
+}
+
+.imgtuyendung{
+    padding-left: 74.5px !important;
+}
+
+.imgtuyendung img{
+    position:  absolute;
+    border-radius: 20px;
+
+    
+}
+.imghambuger img{
+    position: absolute;
+    border-radius: 20px;
+}
+.headeroder img{
+    position: absolute;
+    width: 1350px;
+}
 }
