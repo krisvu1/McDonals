@@ -562,11 +562,6 @@ text-shadow: none;
        border-radius: 0px;
         position: absolute;
 
-       
-       
-      
-
-
     }
     .imgdownmobile .textmobile {
         font-size: 10px;
@@ -729,9 +724,62 @@ text-shadow: none;
         background: #fff;
     }
   
-    }
-   
 
+
+
+    /* khuyen mai */
+    .khuyenmaimobile img{
+        width: 363px;
+    }
+    .khuyenmaibannermobi img{
+        width: 375px;
+        height: 122px;
+  
+    }
+    .khuyenmaibannermobi button{
+        transform: translate(92px, -20px);
+
+    }
+    .contactmobi1 p{
+        margin-top: 20px;
+    }
+    .contact1mbobile2{
+        display: none;
+    }
+    .txcontact1mobile2{
+        display: none;
+    }
+    .thongtinmobile{
+        display: none;
+    }
+    .contactmobi1 button{
+        display: none;
+    }
+   .endkhuyenmai {
+    margin-top: 400px;
+   }
+
+   /* tintuc */
+   .tintuctomobile .anhtintuc{
+    width: 372px;
+   }
+   .contact1 p {
+    margin-top: 506px;
+    padding-left: 0px;
+   }
+   .contact1 input{
+    margin-left: 0px;
+    width: 250px;
+   }
+   .ifcontactmobile{
+    height: 262px;
+   }
+   .inputlienhe .imglienhe img {
+    width: 375px;
+    height: 512px;
+   }
+   
+}
     
 
 
