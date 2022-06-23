@@ -595,7 +595,7 @@ html{
     }
     
     .history_mc2{
-        margin-top: 100px;
+        margin-top: 200px;
         text-align:left;
     }
     .history_mc2 .title_text{
@@ -619,7 +619,6 @@ html{
         width: 100%;
         height: auto;
         position: absolute;
-    
         
     }
     .anhlichsu5 .text_big{
@@ -642,20 +641,9 @@ html{
         padding-right: 50px;
         text-shadow: none;
     }
-    .endofpage1 ul {
-        list-style: none; 
+    .anhlichsu5 .blank{
+        margin-top: 350px;
     }
-    
-    .endofpage1 a{
-        text-decoration: none;
-        color: gray;
-        
-        
-    }
-    .endofpage1{
-        transform: translateY(-61%);
-    }
-
         /*xuat xu*/
         .anhxuatxu img{
             width: 100%;
@@ -688,7 +676,7 @@ html{
         }
         
         .xuatxu1{
-            margin-top: 300px;
+            margin-top: 400px;
         }
         .xuatxu1 .text_gioithieu{
             color: #000;
@@ -697,6 +685,7 @@ html{
             padding-right: 80px;
             line-height: 30px;
         }
+
 
     /*Gioi thieu*/
     .anhgioithieu1 img{
@@ -858,6 +847,9 @@ html{
         padding-left: 120px;
         text-shadow: none;
     
+    }
+    .anhgioithieu3 .blank{
+        margin-top: 400px;
     }
 
 /* -----reponsive---- */
