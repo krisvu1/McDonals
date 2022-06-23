@@ -68,7 +68,7 @@ html{
     color: white !important;
     height: 120px;
     line-height: 100px;
-    font-size: 18px;
+    font-size: 16px;
    
     margin: 0 16px;
 }
@@ -1127,7 +1127,7 @@ html{
 
    
 .pcimg img{
-    padding-left: 146px;
+    padding-left: 100px;
 }
 .imghistory img{
     position: absolute;   
