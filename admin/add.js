@@ -110,15 +110,15 @@ accounts = {
         {
             "username":"huugo",
             "password":"admin"
-        }
+        },
         {
             "username":"tungor",
             "password":"admin"
-        }
+        },
         {
             "username":"admin",
             "password":"admin"
-        }
+        },
     ]
 }
 
