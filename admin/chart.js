@@ -1,19 +1,19 @@
 const labels = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
+  'Tháng một',
+  'Tháng hai',
+  'Tháng ba',
+  'Tháng tư',
+  'Tháng năm',
+  'Tháng sáu',
 ];
 
 const data = {
   labels: labels,
   datasets: [{
-    label: 'My First dataset',
+    label: 'Lượng người truy cập',
     backgroundColor: 'rgb(255, 99, 132)',
     borderColor: 'rgb(255, 99, 132)',
-    data: [0, 10, 5, 2, 20, 30, 45],
+    data: [0, 35, 20, 40, 20, 24, 30, 45],
   }]
 };
 

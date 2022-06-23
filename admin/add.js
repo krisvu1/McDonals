@@ -104,11 +104,19 @@ function add(){
 accounts = {
     "userGuest": [
         {
-            "username":"Vuvietanh",
+            "username":"vuvietanh",
             "password":"admin"
         },
         {
             "username":"huugo",
+            "password":"admin"
+        }
+        {
+            "username":"tungor",
+            "password":"admin"
+        }
+        {
+            "username":"admin",
             "password":"admin"
         }
     ]
