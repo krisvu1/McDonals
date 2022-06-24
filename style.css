@@ -676,7 +676,7 @@ html{
         }
         
         .xuatxu1{
-            margin-top: 400px;
+            margin-top: 300px;
         }
         .xuatxu1 .text_gioithieu{
             color: #000;
@@ -685,8 +685,153 @@ html{
             padding-right: 80px;
             line-height: 30px;
         }
+        .anhxuatxu1 img{
+            width: 100%;
+            height: auto;
+            position: absolute;
+        
+            
+        }
+        .anhxuatxu1 .text_big{
+            
+            color: #fff;
+            font-size: 35px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 600px;
+            padding-right: 450px;
+            text-shadow: none;
+        }
+        .anhxuatxu1 .text_small{
+            
+            color: #fff;
+            font-size: 18px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 600px;
+            padding-right: 50px;
+            text-shadow: none;
+        }
+        .anhxuatxu1 .blank{
+            margin-top: 250px;
+        }
+        .anhxuatxu2 img{
+            width: 100%;
+            height: auto;
+            position: absolute;
+        
+            
+        }
+        .anhxuatxu2 .text_big{
+            
+            color: #fff;
+            font-size: 35px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 50px;
+            padding-right: 900px;
+            text-shadow: none;
+        }
+        .anhxuatxu2 .text_small{
+            
+            color: #fff;
+            font-size: 18px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 50px;
+            padding-right: 600px;
+            text-shadow: none;
+        }
+        .anhxuatxu2 .blank{
+            margin-top: 250px;
+        }
+        .anhxuatxu3 img{
+            width: 100%;
+            height: auto;
+            position: absolute;
+        
+            
+        }
+        .anhxuatxu3 .text_big{
+            
+            color: #fff;
+            font-size: 35px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 600px;
+            padding-right: 300px;
+            text-shadow: none;
+        }
+        .anhxuatxu3 .text_small{
+            
+            color: #fff;
+            font-size: 18px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 600px;
+            padding-right: 50px;
+            text-shadow: none;
+        }
+        .anhxuatxu3 .blank{
+            margin-top: 250px;
+        }
+        .anhxuatxu4 img{
+            width: 100%;
+            height: auto;
+            position: absolute;
+        
+            
+        }
+        .anhxuatxu4 .text_big{
+            
+            color: rgb(0, 0, 0);
+            font-size: 35px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 50px;
+            padding-right: 1000px;
+            text-shadow: none;
+        }
+        .anhxuatxu4 .text_small{
+            
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            text-align:left;    
+            top: 50px;
+            padding-left: 50px;
+            padding-right: 600px;
+            text-shadow: none;
+        }
+        .anhxuatxu4 .blank{
+            margin-top: 100px;
+        }
 
-
+        .xuatxu5 img{
+            width: 70%;
+            height: auto;
+            margin-top: 50px;
+        }
+    
+        .xuatxu5 .title_xuatxu{
+            color:#bd0017;
+            text-align: left;
+            font-size:36px;
+            line-height:48.24px;
+            padding-right: 180px;
+            margin:30px 0px;
+            text-shadow: none;
+            padding-left: 50px;
+            margin-top: 50px;
+        }
+        .xuatxu5 .text_xuatxu{
+            color: #000;
+            text-shadow: none;
+            text-align: left;
+            line-height: 30px;
+            padding-left: 50px;
+            padding-right: 10px;
+            margin-top: 20px;
+        }
     /*Gioi thieu*/
     .anhgioithieu1 img{
         width: 100%;
